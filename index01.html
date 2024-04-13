@@ -4,44 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site</title>
-    <style>
-        body{
-            background-color: rgba(222, 184, 135, 0.516);
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-        }
-        #container{
-            background-color: #ccc;
-            margin: 20px auto 20px auto;
-            border: 1px solid #ccc;
-            border-radius: 15px;
-            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.368);
-            max-width: 450;
-            height: 500px;
-        }
-
-        .title{
-            font-size: 22pt;
-            text-align: center;
-            text-transform: uppercase;
-        }
-
-        .sub-title{
-            text-align: center;
-        }
-        .text{
-            font-size: 19pt;
-            text-align: center;
-            line-height: 1.5;
-            padding: 10px;
-            margin: 15px;
-        }
-    </style>
+    <link rel="stylesheet" href="style/index.css">
 </head>
 <body>
-    <div id="container">
-        <h1 class="title">Seja bem vindo</h1>
-        <h2  class="sub-title">Não tem nada de novo aqui.</h2>  
-        <p class="text">FAZ UM PIX DE 20 CONTO.</p>
+    <div class="container-header-menu">
+        <header>
+            <h1 class="name">ContruSite</h1>
+        </header>
+        <nav class="menu">
+            <ul class="list-links">
+                <li class="link"><a href="#">Home</a></li>
+                <li class="link"><a href="#">Projetos</a></li>
+                <li class="link"><a href="#">Ideias de sites</a></li>
+                <li class="link"><a href="#">Quem somos</a></li>
+            </ul>
+        </nav>
     </div>
 </body>
 </html>
