@@ -47,9 +47,9 @@ body{
 .slide-01{
     border-radius: 15px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.584);
-    min-width: 100px;
-    height: 350px;
-    margin: 10px 20px 10px 20px;
+    width: 320px;
+    height: 568px;
+    margin: 10px auto 10px auto;
     border: 1px solid rebeccapurple;
 }
 
