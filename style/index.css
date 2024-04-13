@@ -35,6 +35,7 @@ body{
     /* text-transform: uppercase; */
 }
 
+
 .link a{
     border-radius: 10px;
     padding: 10px;
@@ -43,3 +44,25 @@ body{
     text-decoration: none;
 }
 
+.slide-01{
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.584);
+    min-width: 100px;
+    height: 350px;
+    margin: 10px 20px 10px 20px;
+    border: 1px solid rebeccapurple;
+}
+
+.slide-01 h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px;
+}
+
+.slide-01 p{
+    line-height: 1.3;
+    padding: 9px;
+    text-align: justify;
+    font-size: 14pt;
+}
