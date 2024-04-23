@@ -1,4 +1,11 @@
-@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+
+:root{
+    --font: "Roboto", sans-serif;
+}
 
 *{
     margin: 0;
@@ -6,7 +13,7 @@
 }
 
 html,body{
-
+    font-family: Arial, Helvetica, sans-serif;
     min-height: 100vh;
     background-color: darkgray;
 }
@@ -18,6 +25,8 @@ header{
 }
 
 header h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 10vw;
     padding-top: 50px;
     font-variant: small-caps;
 }
@@ -37,10 +46,28 @@ a:hover{
 }
 
 section{
+    font-family: var(--font);
+    font-size: 3.5vw;
     padding-left: 30px;
     line-height: 2em;
     padding-top: 10vh;
     padding-bottom: 10vh;
+}
+
+section p{
+    padding-bottom: 2em;
+}
+
+section#img01{
+    background-image: url('dfs012/imagens/background001.jpg');
+    background-position: right center;
+    background-size: cover;
+}
+
+section#img02{
+    background-image: url('dfs012/imagens/background002.jpg');
+    background-position: right center;
+    background-size: cover;
 }
 
 .normal{
@@ -49,13 +76,17 @@ section{
 }
 .image{
     background-color: rgb(51, 51, 51);
-    color: white
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.578);
+    background-attachment: fixed;
 
 }
 
 section.image > p{
-    background-color: rgba(0, 0, 0, 0.737);
-    width: 400px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.444);
+    display: inline-block;
+    text-shadow: 1.2px 1.2px 0px black;
 }
 
 footer{
