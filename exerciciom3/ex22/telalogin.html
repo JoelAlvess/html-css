@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela login</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1{
+            text-align: center;
+            font-variant: small-caps;
+            padding: 15px;
+        }
+
+        #container{
+            background-color: #88898C;
+            position: relative;
+            margin: 25px auto;
+            width: 350px;
+            height: 450px;
+            border: none;
+            border-radius: 10px;
+            box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.386);
+        }
+
+        #forms{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+
+        .login{
+            border-radius: 5px;
+            padding: 10px;
+            margin: 10px;
+            width: 250px
+        }
+
+        #btn{
+            margin: 7px;
+            padding: 10px;
+            background-color: greenyellow;
+            border: none;
+
+        }
+        
+        a{
+            margin: 15px;
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1>Finance.Soft</h1>
+        <div id="forms">
+            <input type="email" name="email" id="login-email" placeholder ="Email ou usuário" class="login">
+            <input type="password" name="senha" id="user-password" placeholder="Digite sua senha" class="login">
+            <input type="button" value="Entrar" id="btn"> <br>
+ 
+            <a href="#" class="">Esqueceu a senha?</a>
+            <a href="#">Criar conta</a>
+        </div>
+    </div>
+</body>
+</html>
