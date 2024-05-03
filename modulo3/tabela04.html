@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praticando</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        caption{
+            padding: 15px;
+            border: 1px solid #ccc;
+            background-color: gray;
+            font-variant: small-caps;
+        }
+
+        table{
+            margin: auto;
+            width: 550px;
+            border: 1px solid black;
+        }
+
+        tbody > tr:nth-child(2n){
+            background-color: burlywood;
+        }
+
+            thead > tr > th{
+                position: sticky;
+                top: 0;
+                background-color: white;
+            }
+
+        .pais, .num,.regiao, th{
+            border: 1px solid rgb(52, 4, 4);
+        }
+
+        .num, .regiao{
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        tfoot{
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <h1>Apredendo mais sobre tabelas</h1>
+    <table>
+        <caption>PIB(Milhões de US$) por país</caption>
+        <thead>
+            <tr>
+                <th>País/Território</th>
+                <th>Região ONU</th>
+                <th>Estimativa</th>
+                <th>Fim</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="pais">Estados Unidos</td>
+                <td class="regiao">América</td>
+                <td class="num">25,440.000</td>
+            </tr>
+            <tr>
+                <td class="pais">China</td>
+                <td class="regiao">Ásia</td>
+                <td class="num">17,960,000</td>
+            </tr>
+            <tr>
+                <td class="pais"> Japão</td>
+                <td class="regiao">Ásia</td>
+                <td class="num">4,260,000</td>
+            </tr>
+            <tr>
+                <td class="pais">Alemanha</td>
+                <td class="regiao">Europa</td>
+                <td class="num">4,080,000</td>
+            </tr>
+            <tr>
+                <td class="pais">Índia</td>
+                <td class="regiao">Ásia</td>
+                <td class="num">3,440,000</td>
+            </tr>
+            <tr>
+                <td class="pais">Reino Unido</td>
+                <td class="regiao">Europa</td>
+                <td class="num">3,090,000</td>
+            </tr>
+            <tr>
+                <td class="pais">França</td>
+                <td class="regiao">Europa</td>
+                <td class="num">2,780,000</td>
+            </tr>
+            <tr>
+                <td class="pais">Rússia</td>
+                <td class="regiao">	Europa/Ásia</td>
+                <td class="num">2,240,000</td>
+            </tr>
+            <tr>
+                <td class="pais">Canadá</td>
+                <td class="regiao">América</td>
+                <td class="num">2,160,000</td>
+            </tr>
+            <tr>
+                <td class="pais">Itália</td>
+                <td class="regiao">Europa</td>
+                <td class="num">1,920,000</td>
+            </tr>
+            <tr>
+                <td class="pais">Brasil</td>
+                <td class="regiao">América</td>
+                <td class="num">1,734,207</td>
+            </tr>
+            <tr>
+                <td class="pais"> Coreia do Sul</td>
+                <td class="regiao">Ásia</td>
+                <td class="num">1,724,787</td>
+            </tr>
+            <tr>
+                <td class="pais">México</td>
+                <td class="regiao">América</td>
+                <td class="num">1,424,533</td>
+            </tr>
+            <tr>
+                <td class="pais">Espanha</td>
+                <td class="regiao">Europa</td>
+                <td class="num">1,389,927</td>
+            </tr>
+            <tr>
+                <td class="pais"> Indonésia</td>
+                <td class="regiao">Ásia</td>
+                <td class="num">1,289,429</td>
+            </tr>
+            <tr>
+                <td class="pais">Arábia Saudita</td>
+                <td class="regiao">Oceania</td>
+                <td class="num">1,424,533</td>
+            </tr>
+            <tr>
+                <td class="pais">Países Baixos</td>
+                <td class="regiao">Europa</td>
+                <td class="num">0,990,583</td>
+            </tr>
+            <tr>
+                <td class="pais">Austrália</td>
+                <td class="regiao">Oceania</td>
+                <td class="num">1,424,533</td>
+            </tr>
+            <tr>
+                <td class="pais">Turquia</td>
+                <td class="regiao">Ásia</td>
+                <td class="num">0,853,487</td>
+            </tr>
+            <tr>
+                <td class="pais">Taiwan</td>
+                <td class="regiao">Ásia</td>
+                <td class="num">0,828,659</td>
+            </tr>
+            <tr>
+                <td class="pais">Suíça</td>
+                <td class="regiao">Europa</td>
+                <td class="num">0,807,418</td>
+            </tr>
+            <tr>
+                <td class="pais"> Polónia</td>
+                <td class="regiao">Europa</td>
+                <td class="num">0,716,305</td>
+            </tr>
+            <tr>
+                <td class="pais">Argentina</td>
+                <td class="regiao">América</td>
+                <td class="num">0,630,698</td>
+            </tr>
+            <tr>
+                <td class="pais"> Suécia</td>
+                <td class="regiao">Europa</td>
+                <td class="num">0,603,922</td>
+            </tr>
+            <tr>
+                <td class="pais">Bélgica</td>
+                <td class="regiao">Europa</td>
+                <td class="num">0,589,491</td>
+            </tr>
+            <tr>
+                <td class="pais">Israel</td>
+                <td class="regiao">Ásia</td>
+                <td class="num">0,527,179</td>
+            </tr>
+            <tr>
+                <td class="pais">Irlanda</td>
+                <td class="regiao">Europa</td>
+                <td class="num">0,519,776</td>
+            </tr>
+            <tr>
+                <td class="pais">Noruega</td>
+                <td class="regiao">Europa</td>
+                <td class="num">0,504,703</td>
+            </tr>
+            <tr>
+                <td class="pais">Austrália</td>
+                <td class="regiao">Oceania</td>
+                <td class="num">1,424,533</td>
+            </tr>
+            <tr>
+                <td class="pais">Austrália</td>
+                <td class="regiao">Oceania</td>
+                <td class="num">1,424,533</td>
+            </tr>
+            <tr>
+                <td class="pais">Austrália</td>
+                <td class="regiao">Oceania</td>
+                <td class="num">1,424,533</td>
+            </tr>
+            <tr>
+                <td class="pais">Austrália</td>
+                <td class="regiao">Oceania</td>
+                <td class="num">1,424,533</td>
+            </tr>
+            <tr>
+                <td class="pais">Austrália</td>
+                <td class="regiao">Oceania</td>
+                <td class="num">1,424,533</td>
+            </tr>
+            <tr>
+                <td class="pais">Austrália</td>
+                <td class="regiao">Oceania</td>
+                <td class="num">1,424,533</td>
+            </tr>
+            <tr>
+                <td class="pais">Austrália</td>
+                <td class="regiao">Oceania</td>
+                <td class="num">1,424,533</td>
+            </tr>
+            <tr>
+                <td class="pais">Austrália</td>
+                <td class="regiao">Oceania</td>
+                <td class="num">1,424,533</td>
+            </tr>
+            <tr>
+                <td class="pais">Austrália</td>
+                <td class="regiao">Oceania</td>
+                <td class="num">1,424,533</td>
+            </tr>
+            <tr>
+                <td class="pais">Austrália</td>
+                <td class="regiao">Oceania</td>
+                <td class="num">1,424,533</td>
+            </tr>
+            <tr>
+                <td class="pais">Austrália</td>
+                <td class="regiao">Oceania</td>
+                <td class="num">1,424,533</td>
+            </tr>
+            <tr>
+                <td class="pais">Austrália</td>
+                <td class="regiao">Oceania</td>
+                <td class="num">1,424,533</td>
+            </tr>
+            <tr>
+                <td class="pais">Austrália</td>
+                <td class="regiao">Oceania</td>
+                <td class="num">1,424,533</td>
+            </tr>
+            <tr>
+                <td class="pais">Austrália</td>
+                <td class="regiao">Oceania</td>
+                <td class="num">1,424,533</td>
+            </tr>
+            <tr>
+                <td class="pais">Austrália</td>
+                <td class="regiao">Oceania</td>
+                <td class="num">1,424,533</td>
+            </tr>
+            <tr>
+                <td class="pais">Austrália</td>
+                <td class="regiao">Oceania</td>
+                <td class="num">1,424,533</td>
+            </tr>
+            <tr>
+                <td class="pais">Austrália</td>
+                <td class="regiao">Oceania</td>
+                <td class="num">1,424,533</td>
+            </tr>
+            <tr>
+                <td class="pais">Austrália</td>
+                <td class="regiao">Oceania</td>
+                <td class="num">1,424,533</td>
+            </tr>
+            <tr>
+                <td class="pais">Austrália</td>
+                <td class="regiao">Oceania</td>
+                <td class="num">1,424,533</td>
+            </tr>
+            <tr>
+                <td class="pais">Austrália</td>
+                <td class="regiao">Oceania</td>
+                <td class="num">1,424,533</td>
+            </tr>
+            <tr>
+                <td class="pais">Austrália</td>
+                <td class="regiao">Oceania</td>
+                <td class="num">1,424,533</td>
+            </tr>
+            <tr>
+                <td class="pais">Austrália</td>
+                <td class="regiao">Oceania</td>
+                <td class="num">1,424,533</td>
+            </tr>
+            <tr>
+                <td class="pais">Austrália</td>
+                <td class="regiao">Oceania</td>
+                <td class="num">1,424,533</td>
+            </tr>
+            <tr>
+                <td class="pais">Austrália</td>
+                <td class="regiao">Oceania</td>
+                <td class="num">1,424,533</td>
+            </tr>
+            <tr>
+                <td class="pais">Austrália</td>
+                <td class="regiao">Oceania</td>
+                <td class="num">1,424,533</td>
+            </tr>
+            <tr>
+                <td class="pais">Austrália</td>
+                <td class="regiao">Oceania</td>
+                <td class="num">1,424,533</td>
+            </tr>
+            <tr>
+                <td class="pais">Austrália</td>
+                <td class="regiao">Oceania</td>
+                <td class="num">1,424,533</td>
+            </tr>
+            <tr>
+                <td class="pais">Austrália</td>
+                <td class="regiao">Oceania</td>
+                <td class="num">1,424,533</td>
+            </tr>
+            <tr>
+                <td class="pais">Austrália</td>
+                <td class="regiao">Oceania</td>
+                <td class="num">1,424,533</td>
+            </tr>
+            <tr>
+                <td class="pais">Austrália</td>
+                <td class="regiao">Oceania</td>
+                <td class="num">1,424,533</td>
+            </tr>
+            <tr>
+                <td class="pais">Austrália</td>
+                <td class="regiao">Oceania</td>
+                <td class="num">1,424,533</td>
+            </tr>
+            <tr>
+                <td class="pais">Austrália</td>
+                <td class="regiao">Oceania</td>
+                <td class="num">1,424,533</td>
+            </tr>
+            <tr>
+                <td class="pais">Austrália</td>
+                <td class="regiao">Oceania</td>
+                <td class="num">1,424,533</td>
+            </tr>
+            <tr>
+                <td class="pais">Austrália</td>
+                <td class="regiao">Oceania</td>
+                <td class="num">1,424,533</td>
+            </tr>
+            <tr>
+                <td class="pais">Austrália</td>
+                <td class="regiao">Oceania</td>
+                <td class="num">1,424,533</td>
+            </tr>
+            <tr>
+                <td class="pais">Austrália</td>
+                <td class="regiao">Oceania</td>
+                <td class="num">1,424,533</td>
+            </tr>
+            <tr>
+                <td class="pais">Austrália</td>
+                <td class="regiao">Oceania</td>
+                <td class="num">1,424,533</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th>Teste</th>
+            <td class="regiao">Oceania</td>
+            <td class="num">1,424,533</td>
+        </tfoot>
+    </table>
+</html>

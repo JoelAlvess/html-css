@@ -10,9 +10,18 @@
         }
 
         table{
+            position: relative;
             margin: 10px auto;
             border-collapse: collapse;
             width: 500px;
+            position: relative;
+        }
+
+        caption{
+            border: 1px solid black;
+            padding: 15px;
+            font-variant: small-caps;
+            background-color: lightgray;
         }
 
         td, th{
@@ -23,6 +32,19 @@
         thead, tfoot{
             background-color: gray;
             color: white;
+        }
+
+        thead > tr > th{
+            position: sticky;
+            top: 0;
+            background-color: grey;
+        }
+
+        tbody > tr:nth-child(odd){
+            background-color: rgba(14, 37, 5, 0.411);
+        }
+        .dados{
+            width: 150px;
         }
     </style>
 </head>
@@ -38,127 +60,127 @@
         <tbody>
             <tr>
                 <td>São Paulo</td>
-                <td>44 411 238</td>
+                <td class="dados">44 411 238</td>
 
             </tr>
                 
             <tr>
                 <td>Minas Gerais</td>
-                <td>20 538 718</td>
+                <td class="dados">20 538 718</td>
             </tr>
             
             <tr>
                 <td>Rio de Janeiro</td>
-                <td>16 054 524	</td>
+                <td class="dados">16 054 524	</td>
             </tr>
 
             <tr>
                 <td>Bahia</td>
-                <td>14 141 626</td>
+                <td class="dados">14 141 626</td>
             </tr>
             <tr>
                 <td> Rio Grande do Sul</td>
-                <td>10 882 965</td>
+                <td class="dados">10 882 965</td>
             </tr>
             <tr>
                 <td>Pernambuco</td>
-                <td>9 058 931</td>
+                <td class="dados">9 058 931</td>
             </tr>
 
             <tr>
                 <td>Ceará</td>
-                <td>8 794 957</td>
+                <td class="dados">8 794 957</td>
             </tr>
             <tr>
                 <td> Pará</td>
-                <td>8 121 025</td>
+                <td class="dados">8 121 025</td>
             </tr>
 
             <tr>
                 <td> Santa Catarina</td>
-                <td>7 610 361	</td>
+                <td class="dados">7 610 361	</td>
             </tr>
             <tr>
                 <td> Goiás</td>
-                <td>7 056 495</td>
+                <td class="dados">7 056 495</td>
             </tr>
             
             <tr>
                 <td>Maranhão</td>
-                <td>6 775 805</td>
+                <td class="dados">6 775 805</td>
             </tr>
             <tr>
                 <td> Paraíba</td>
-                <td>3 974 687	</td>
+                <td class="dados">3 974 687	</td>
             </tr>
             
             <tr>
                 <td>Amazonas</td>
-                <td>3 941 613	</td>
+                <td class="dados">3 941 613	</td>
             </tr>
             <tr>
                 <td>Espírito Santo</td>
-                <td>3 833 712</td>
+                <td class="dados">3 833 712</td>
             </tr>
 
             <tr>
                 <td> Mato Grosso</td>
-                <td>3 658 649</td>
+                <td class="dados">3 658 649</td>
             </tr>
             <tr>
                 <td>Rio Grande do Norte</td>
-                <td>3 302 729</td>
+                <td class="dados">3 302 729</td>
             </tr>
 
             <tr>
                 <td>Piauí</td>
-                <td>3 271 199</td>
+                <td class="dados">3 271 199</td>
             </tr>
             <tr>
                 <td>Alagoas</td>
-                <td>3 127 683	</td>
+                <td class="dados">3 127 683	</td>
             </tr>
 
             <tr>
                 <td> Distrito Federal</td>
-                <td>2 817 381</td>
+                <td class="dados">2 817 381</td>
             </tr>
             <tr>
                 <td>Mato Grosso do Sul	</td>
-                <td>2 757 013</td>
+                <td class="dados">2 757 013</td>
             </tr>
 
             <tr>
                 <td> Sergipe</td>
-                <td>2 209 558</td>
+                <td class="dados">2 209 558</td>
             </tr>
             <tr>
                 <td>Rondônia</td>
-                <td>1 581 196</td>
+                <td class="dados">1 581 196</td>
             </tr>
 
             <tr>
                 <td>Tocantins</td>
-                <td>1 511 460</td>
+                <td class="dados">1 511 460</td>
             </tr>
             <tr>
                 <td>Acre</td>
-                <td>830 018	</td>
+                <td class="dados">830 018	</td>
             </tr>
 
             <tr>
                 <td> Amapá</td>
-                <td>733 759	</td>
+                <td class="dados">733 759	</td>
             </tr>
             <tr>
                 <td>Roraima</td>
-                <td>636 707	</td>
+                <td class="dados">636 707	</td>
             </tr>
         </tbody>
         <tfoot>
             <tr>
                 <th scope="row">Total de habitantes</th>
-                <td><strong>203 062 512</strong></td>
+                <td class="dados"><strong>203 062 512</strong></td>
             </tr>
         </tfoot>
     </table>
